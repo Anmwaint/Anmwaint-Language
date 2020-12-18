@@ -1,1 +1,16 @@
-{}
+{
+	"language": {
+		"version": "1.0.0",
+		"author": "maven#0556",
+	},
+	"help": {
+		"title": "Anmwaint Yardım Menüsü",
+		"url": "https://anmwaint.github.io/",
+		"description": "Anmwaint; Sunucu korumak, Spamları bastırmak, tag sunucularını engellemek ve daha bir çok moderasyon işleri için kodlanmıştır."
+	},
+	"language_command": {
+		"permissions": "Komutu kullanmak için ``Sunucuyu Yönet`` yetkisine sahip olmalısınız."
+	}
+}
+
+// Eksikler yakında giderelicektir.
