@@ -1,1 +1,16 @@
+{
+	"language": {
+		"version": "1.0.0",
+		"author": "...",
+	},
+	"help": {
+		"title": "Anmwaint Help Menu",
+		"url": "https://anmwaint.github.io/",
+		"description": "Anmwaint is coded to protect servers, block spams, block tag servers and for more moderation taks."
+	},
+	"language_command": {
+		"permissions": "In order to use this command you need to have ``Manage Server`` permission."
+	}
+}
 
+// すぐに
