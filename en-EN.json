@@ -2,15 +2,23 @@
 	"language": {
 		"version": "1.0.0",
 		"author": "! 𝕯𝖔𝕹'𝖙 𝕲𝖎𝖁𝖊 𝖀𝖕 ᶜᵒᵈᵉ ʸᵒᵘ#2891",
+		"name": "en-EN",
+		"flag": ":flag_gb:"
 	},
-	"help": {
-		"title": "Anmwaint Help Menu",
-		"url": "https://anmwaint.github.io/",
-		"description": "Anmwaint is coded to protect servers, block spams, block tag servers and for more moderation taks."
-	},
-	"language_command": {
-		"permissions": "In order to use this command you need to have ``Manage Server`` permission."
+	"commands": {
+		"language": {
+			"none_permission": "In order to use this command you need to have Manage Server permission.",
+			"language_already": "Anmwaint's language is already set,you don't have to change it.",
+			"none_language": " I can't find that language,if you want to add your language to the bot you can send your translations to this section: Anmwaint/Anmwaint-Language.",
+			"language_ready": "Anmwaint's language has successfully changed to English,from now on I will speak English."
+		},
+		"clear": {
+			"none_permission": "In order to use this command you need to have Manage Messages permission",
+			"none_number": "If you want me to delete messages you have to specify the amount of messages you want me to delete.",
+			"discord_api": "Because of Discord API rules I cant delete messages older than 2 weeks.",
+			"already": "**{deleted_count}** Messages have  successfully been deleted.",
+			"max_size": "Because of Discord API rules I can't delete more than **100** messages",
+			"min_size": " Because of Discord API rules I can delete a minimum of **1** message."
+		}
 	}
 }
-
-// Coming soon.
