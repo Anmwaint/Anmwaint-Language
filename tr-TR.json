@@ -1,16 +1,24 @@
 {
 	"language": {
 		"version": "1.0.0",
-		"author": "maven#0556",
+		"author": "Anmwaint Geliştiricileri",
+		"name": "tr-TR",
+		"flag": ":flag_tr:"
 	},
-	"help": {
-		"title": "Anmwaint Yardım Menüsü",
-		"url": "https://anmwaint.github.io/",
-		"description": "Anmwaint; Sunucu korumak, Spamları bastırmak, tag sunucularını engellemek ve daha bir çok moderasyon işleri için kodlanmıştır."
-	},
-	"language_command": {
-		"permissions": "Komutu kullanmak için ``Sunucuyu Yönet`` yetkisine sahip olmalısınız."
+	"commands": {
+		"language": {
+			"none_permission": "Bu komutu kullanmak için Sunucuyu Yönet yetkisine sahip olmalısınız.",
+			"language_already": "Anmwaint dili zaten ayarlanmış bu yüzden değiştirmenize gerek yok.",
+			"none_language": "Anmwaint sisteminde böyle bir dil bulamıyorum eğer eklemek istiyorsanız Anmwaint/Anmwaint-Language kısmına çevirinizi gönderebilirsiniz.",
+			"language_ready": "Anmwaint dili başarıyla Türkçe olarak ayarlanmıştır Bundan sonra Türkçe konuşucağım."
+		},
+		"clear": {
+			"none_permission": "Bu komutu kullanmak için Mesajları Yönet yetkisine sahip olmalısınız.",
+			"none_number": "Kanaldan mesajları silmem için kaç adet mesaj siliceğimi belirtmelisiniz.",
+			"discord_api": "Discord API kuralları nedeni ile 2 haftadan uzun mesajları silemiyorum.",
+			"already": "**{deleted_count}** Mesaj başarıyla silindi.",
+			"max_size": "Discord API kuralları nedeni ile en fazla **100** mesaj silebilirim.",
+			"min_size": "Discord API kuralları neden ile en az **1** mesaj silebilirim."
+		}
 	}
 }
-
-// Eksikler yakında giderelicektir.
